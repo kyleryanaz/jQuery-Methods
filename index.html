@@ -8,8 +8,27 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h3>Some Useful jQuery Methods</h3>
-    <hr>
+    <h1>Some Useful jQuery Methods</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h5>.append()</h5>
+            <p>- Click to add a tally mark -</p>
+            <p id="pOne"></p>
+            <button id="btnOne">+ 1</button>
+        </div>
+        <div class="grid-item">
+            <h5>.toggle()</h5>
+            <p>- Click to hide and reveal the following paragraph -</p>
+            <p id="pTwo">I was sheriff of this county when I was twenty-five years 
+                old. Hard to believe. Grandfather was a lawman. Father too. Me and 
+                him was sheriff at the same time, him in Plano and me here. I think 
+                he was pretty proud of that. I know I was. Some of the old-time 
+                sheriffs never even wore a gun. A lot of folks find that hard to 
+                believe.</p>
+            <button id="btnTwo">Hide/Reveal</button>
+        </div>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
