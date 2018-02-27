@@ -1,9 +1,18 @@
 $(document).ready(function(){
-    $("#btnOne").click(function(){
-        $("#pOne").append(" <t>|</t>");
+
+    $(".addClass").add("#addId").css("background-color", "DarkTurquoise");
+
+    $(document).ready(function(){
+        $("#addClass").click(function(){
+            $("#dunderMifflin").addClass("negative");
+        });
+    });
+   
+    $("#btnAppend").click(function(){
+        $("#pAppend").append(" <t>|</t>");
     });
     
-    $("#btnTwo").click(function(){
-        $("#pTwo").toggle();
+    $("#btnToggle").click(function(){
+        $("#pToggle").toggle();
     });
 });
