@@ -1,15 +1,18 @@
 $(document).ready(function(){
 
-    $(".addClass").add("#addId").css("background-color", "DarkTurquoise");
-
-    $(document).ready(function(){
-        $("#addClass").click(function(){
-            $("#dunderMifflin").addClass("negative");
-        });
+    $("#btnAddClass").click(function(){
+        $("#pAddClass").addClass("negative");
     });
+
+    $("#btnAnimate").click(function(){
+        $("#pAnimate")
+        .animate({ 'right': "+=24"}, 250)
+        .animate({ 'right': "-=48"}, 250)
+        .animate({ 'right': "+=24"}, 250);
+    })
    
     $("#btnAppend").click(function(){
-        $("#pAppend").append(" <t>|</t>");
+        $("#pAppend").append(" <t>.</t>");
     });
     
     $("#btnToggle").click(function(){

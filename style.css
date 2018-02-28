@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: cornsilk;
 }
 
 .grid-container {
@@ -18,4 +19,8 @@ body{
   .negative {
     color:white;
     background-color:black;
+  }
+
+  #pAnimate {
+    position: relative;
   }
